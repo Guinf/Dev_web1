@@ -26,7 +26,7 @@ h3 {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to bottom, #b9008b, rgb(80, 8, 128));
+    background-image: linear-gradient(to top, rgb(134, 36, 214), rgb(71, 6, 114));
     background-size: cover;
 }
 

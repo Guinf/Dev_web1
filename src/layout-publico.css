@@ -44,7 +44,6 @@ li {
 }
 
 body {
-    display: inline-block;
     height: 40em;
     background-image: linear-gradient(to top, rgb(134, 36, 214), rgb(71, 6, 114));
 }
