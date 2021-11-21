@@ -10,7 +10,7 @@
    
 }
 
-ul li {
+li {
     display: inline-block;
     
 }
@@ -24,7 +24,7 @@ ul li {
     margin-left: 1em;
 }
 
-.login{
+.btn-login{
     position: relative;
     top: 30px;
     float: right;
@@ -41,6 +41,61 @@ ul li {
     padding: 10px 50px;
 
 
+}
 
+body {
+    display: inline-block;
+    height: 40em;
+    background-image: linear-gradient(to top, rgb(134, 36, 214), rgb(71, 6, 114));
+}
 
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin-top: 1.5em;
+    margin-left: 20%;
+    color: white;
+    
+}
+
+.descricao { 
+    display: flex;
+    color: white;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.descricao li{
+    flex: 1;
+    margin-top: 12%;
+    margin-right: 7.5%;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    margin-bottom: 8%;
+    text-align: center;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 8%;
+    margin-left: 5%;
+}
+
+.btn-criar-conta {
+    background-color: #c90086;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: rgb(243, 243, 243);
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    width: 100%;
+    padding: 10px 60px;
 }
